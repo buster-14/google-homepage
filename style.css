@@ -1,0 +1,48 @@
+.logo, .searchBar, .mic {
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  padding-bottom: 15px;
+  padding-top: 200px;
+}
+
+.searchBar {
+  width: 403px;
+  height: 39px;
+  border-radius: 0;
+  border: 1px solid #bfbfbf;
+  box-shadow: 2px 2px #f2f2f2;
+}
+
+.navBar, .footer {
+  list-style-type: none;
+  font-size: 12px;
+  font-family: arial;
+
+}
+
+li {
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #808080;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #f2f2f2;
+}
