@@ -1,11 +1,11 @@
-.logo, .searchBar, .mic {
+.logo, .searchBar {
   display: block;
   margin: auto;
 }
 
 .logo {
   padding-bottom: 15px;
-  padding-top: 200px;
+  padding-top: 170px;
 }
 
 .searchBar {
@@ -14,9 +14,34 @@
   border-radius: 0;
   border: 1px solid #bfbfbf;
   box-shadow: 2px 2px #f2f2f2;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  background-image: url('Images/google_mic.png');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 22px 25px;
 }
 
-.navBar, .footer {
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.button {
+  background-color: #f2f2f2;
+  font-size: 13px;
+  font-family: arial;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 16px;
+  text-align: center;
+}
+
+header, footer {
   list-style-type: none;
   font-size: 12px;
   font-family: arial;
@@ -28,21 +53,21 @@ li {
   padding: 5px 15px 5px 15px;
 }
 
-.navBar a {
-  text-decoration: none;
-  color: black;
-}
-
-.footer a{
-  text-decoration: none;
-  color: #808080;
-}
-
-.footer {
+footer {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   border: 1px solid #e7e7e7;
   background-color: #f2f2f2;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a{
+  text-decoration: none;
+  color: #808080;
 }
